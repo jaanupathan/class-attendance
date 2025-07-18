@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <title>Class Attendance</title>
+  <link rel="stylesheet" href="class.css">
+</head>
+<body>
+
+<h1>Class Attendance</h1>
+      <h2>ECE-B</h2>
+<div id="attendance-container"></div>
+
+<h2>Summary</h2>
+<p>Total Present: <span id="totalPresent">0</span></p>
+<p>Boys Present: <span id="boysPresent">0</span></p>
+<p>Girls Present: <span id="girlsPresent">0</span></p>
+<p>Absent Count: <span id="absentCount">0</span></p>
+
+<h2>Absent Roll Numbers</h2>
+<ul id="absentRolls"></ul>
+
+<button onclick="exportToText()">Export Attendance</button>
+
+  <script src="class.js"></script>
+</body>
+</html>
